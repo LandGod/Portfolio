@@ -1,0 +1,31 @@
+body {
+    background-image: url(../images/email-pattern.png)
+}
+
+.wrapper {
+    /* When done syling the rest of the page, need to change '100px' below to be the final combined height of header and footer. */
+    min-height: calc(100vh - 100px)
+}
+
+header {
+    border-bottom: 2px solid gray;
+    margin-bottom: 30px;
+}
+
+section {
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+section p {
+    margin: 10px;
+}
+
+img {
+    margin: 10px;
+}
+
+footer {
+    background-color: lightgray;
+    border-top: 2px solid blueviolet;
+}
