@@ -3,18 +3,34 @@ body {
 }
 
 .wrapper {
-    /* When done syling the rest of the page, need to change '100px' below to be the final combined height of header and footer. */
-    min-height: calc(100vh - 100px)
+    min-height: calc(100vh - 176px)
 }
 
 header {
-    border-bottom: 2px solid gray;
+    background-color: #f8f9fa;
+}
+
+header {
+    border-bottom: 2px solid #33b5e5;
     margin-bottom: 30px;
 }
 
-section {
+.mainSection {
+    max-width: 960px;
     background-color: white;
     border: 1px solid lightgray;
+}
+
+.headerContent {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar-brand {
+    color: white;
+    /* background-color: #0099CC; */
 }
 
 section p {
@@ -26,6 +42,7 @@ img {
 }
 
 footer {
+    margin-top: 30px;
     background-color: lightgray;
-    border-top: 2px solid blueviolet;
+    border-top: 2px solid darkgray;
 }
