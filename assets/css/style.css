@@ -25,12 +25,12 @@ header {
 .headerContent {
     max-width: 960px;
     margin: 0 auto;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 0px;
 }
 
 .navbar-brand {
     color: white;
+    font-size: 2em;
     /* background-color: #0099CC; */
 }
 
@@ -49,5 +49,6 @@ footer {
 }
 
 h1 {
+    font-weight: 300;
     color: #33b5e5;
 }
