@@ -19,6 +19,7 @@ header {
     max-width: 960px;
     background-color: white;
     border: 1px solid lightgray;
+    padding: 25px;
 }
 
 .headerContent {
@@ -45,4 +46,8 @@ footer {
     margin-top: 30px;
     background-color: lightgray;
     border-top: 2px solid darkgray;
+}
+
+h1 {
+    color: #33b5e5;
 }
