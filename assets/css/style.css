@@ -2,16 +2,23 @@ body {
     background-image: url(../images/email-pattern.png)
 }
 
+.navbar-brand {
+    color: white;
+    font-size: 2em;
+}
+
 .wrapper {
+    /* Keeps footer stuck to the bottom of page, regardless of viewport size. */
     min-height: calc(100vh - 176px)
 }
 
 header {
     background-color: #f8f9fa;
+    border-bottom: 2px solid #33b5e5;
 }
 
-header {
-    border-bottom: 2px solid #33b5e5;
+.headerContent {
+    max-width: 960px;
 }
 
 .mainSection {
@@ -20,21 +27,12 @@ header {
     border: 1px solid lightgray;
 }
 
-.headerContent {
-    max-width: 960px;
-}
-
-.navbar-brand {
-    color: white;
-    font-size: 2em;
+h1 {
+    font-weight: 300;
+    color: #33b5e5;
 }
 
 footer {
     background-color: lightgray;
     border-top: 2px solid darkgray;
-}
-
-h1 {
-    font-weight: 300;
-    color: #33b5e5;
 }
