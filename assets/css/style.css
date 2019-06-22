@@ -22,14 +22,11 @@ header {
 
 .headerContent {
     max-width: 960px;
-    margin: 0 auto;
-    padding: 0px;
 }
 
 .navbar-brand {
     color: white;
     font-size: 2em;
-    /* background-color: #0099CC; */
 }
 
 footer {
