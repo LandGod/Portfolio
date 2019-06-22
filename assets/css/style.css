@@ -12,14 +12,12 @@ header {
 
 header {
     border-bottom: 2px solid #33b5e5;
-    margin-bottom: 30px;
 }
 
 .mainSection {
     max-width: 960px;
     background-color: white;
     border: 1px solid lightgray;
-    padding: 25px;
 }
 
 .headerContent {
@@ -34,16 +32,7 @@ header {
     /* background-color: #0099CC; */
 }
 
-section p {
-    margin: 10px;
-}
-
-img {
-    margin: 10px;
-}
-
 footer {
-    margin-top: 30px;
     background-color: lightgray;
     border-top: 2px solid darkgray;
 }
