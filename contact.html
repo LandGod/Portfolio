@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <title>Daniel Gold</title>
+</head>
+<body>
+    <header class="containter mb-5">
+        <nav class="navbar navbar-expand-md navbar-light bg-light headerContent mx-auto p-0"> 
+            <!-- Logo (name) -->
+            <a href="index.html" class="navbar-brand">Daniel Gold</a>
+
+            <!-- Responsive button version of menu, for small screens -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNavBar" aria-controls="mainNavBar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nav links -->
+            <div class="collapse navbar-collapse" id="mainNavBar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">About</a>
+                    </li>
+
+                    <!-- Seperator pipes hidden when in collapsed mode -->
+                    <li class="navbar-text d-md-block d-none"> | </li>
+
+                    <li class="nav-item">
+                        <a href="portfolio.html" class="nav-link">Portfolio</a>
+                    </li>
+
+                    <!-- Seperator pipes hidden when in collapsed mode -->
+                    <li class="navbar-text d-md-block d-none"> | </li>
+
+                    <li class="nav-item">
+                        <!-- Link to current page is set to 'active' look -->
+                        <a href="contact.html" class="nav-link active">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <section class="container mainSection rounded p-4">
+            <h1>Contact</h1>
+            <hr>
+            <div class="container-fluid">
+                <form>
+                    <div class="form-group">
+                        <label for="nameInput">Name</label>
+                        <input type="name" class="form-control" id="nameInput" placeholder="John Smith">
+                    </div>
+                    <div class="form-group">
+                        <label for="emailInput">Email address</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="messageInput">Message</label>
+                        <textarea class="form-control" id="messageInput" rows="3" placeholder="I've been hearing voices and I wanted to know if maybe your website is haunted. Please advise."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+        </section>
+    </div>
+    <footer class="page-footer font-small mt-5">
+        <div class="footer-copyright text-center py-3">&copy; 2019 Copyright:
+            <a href="https://github.com/LandGod"> Daniel Gold</a>
+        </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
