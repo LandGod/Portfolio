@@ -32,6 +32,10 @@ h1 {
     color: #33b5e5;
 }
 
+.card {
+    margin: 20px auto !important;
+}
+
 
 footer {
     background-color: lightgray;
