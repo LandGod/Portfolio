@@ -32,10 +32,34 @@ h1 {
     color: #33b5e5;
 }
 
-.card {
-    margin: 20px auto !important;
+.portfolio-item {
+    position: relative;
+    background-color: white;
+    border: 1px solid #33b5e5;
+    overflow: hidden;
+    width:200px;
+    height: 200px;
 }
 
+.portfolio-item img {
+    display: block;
+    width: auto;
+    height: 100%;
+}
+
+.title-overlay {
+    position: absolute; 
+    bottom: 20px; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+  }
+  
 
 footer {
     background-color: lightgray;
