@@ -15,10 +15,10 @@ $("#contact-submit").click(function (event) {
 
         Email.send({
             SecureToken: "ae2dde05-e05c-4797-86f9-13454479ad98",
-            To: 'daniel.jason.gold@gmail.com',
-            From: $("#emailInput").val(),
+            To: 'danieljasongold@gmail.com',
+            From: 'danieljasongold@gmail.com',
             Subject: "Portfolio Contact Form",
-            Body: "Message from " + $("#nameInput") + " sent via form fill: \n" + $("#messageInput").val()
+            Body: "Message from " + $("#nameInput").val() + " at " + $('#emailInput').val() + " sent via form fill: \n" + $("#messageInput").val()
         }).then(
             message => alert(message)
         )
