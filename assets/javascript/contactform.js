@@ -11,7 +11,7 @@ $("#contact-submit").click(function (event) {
 
     event.preventDefault();
 
-    if (validateEmail) {
+    if (validateEmail('#emailInput').val()) {
 
         Email.send({
             SecureToken: "ae2dde05-e05c-4797-86f9-13454479ad98",
