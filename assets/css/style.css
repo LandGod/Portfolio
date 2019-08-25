@@ -84,3 +84,18 @@ footer {
     background-color: lightgray;
     border-top: 2px solid darkgray;
 }
+
+.hidden {
+    /* Make everything invisible */
+    color: rgba(0,0,0,0) !important;
+    background-color: rgba(0,0,0,0) !important;
+    border-color: rgba(0,0,0,0) !important;
+
+    /* Disable text highlite */
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+}
